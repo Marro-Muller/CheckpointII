@@ -1,5 +1,5 @@
 # MochilaDaViajante
-Repositório para armazenar material das aulas do Certified Tech Developer (Digital House em Parceeria com Mercado Livre e Globant).
+Repositório para armazenar material das aulas do Certified Tech Developer (Digital House em Parceria com Mercado Livre e Globant).
 
 1º BIMESTRE
 - Introdução à Informática
