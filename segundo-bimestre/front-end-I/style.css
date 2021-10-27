@@ -1,0 +1,45 @@
+body {
+    color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #0d1b97;
+    font-family: Georgia,'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+ 
+.job-title {
+    background-color:#1726ad;
+    color: #898dbe;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+
+#high {
+    color:rgb(13, 27, 151);
+}
+
+ul {
+    background-color: #333333;
+    color: rgb(223, 215, 185);
+    padding: 10px;
+}
+
+/* 1. cor do texto da tag body em modo RGB valores (51, 51, 51)
+2. cor do texto da tag h1 em modo hexadecimal, valor 0d1b97
+3. cor de fundo da classe job-title em modo hexadecimal, valor 1726ad
+4. cor do texto da classe job-title em modo hexadecimal, valor 898dbe
+5. cor do texto do identificador high em modo RGB, valores (13, 27, 151)
+6. cor de fundo da tag ul em modo hexadecimal, valor 333333
+7. cor do texto da tag ul em modo RGB, valores (223, 215, 185) 
+8. configure as fontes adicionando a regra font-family: Arial, Helvetica, sans-serif;  à tag body e a regra font-family: Georgia, 'Times New Roman', Times, serif; à tag h1.
+9. configure a propriedade font-size aplicando os valores 40px à tag h1, 20px à tag h2 e 20px à classe job-title.
+10. adicione a regra font-weight: bold; à classe job-title , certificando-se de observar o seu efeito.
+11. adicione a regra padding: 5px 10px 5px 10px; à classe job-title e a regra padding: 10px; à tag ul , certificando-se de observar o seu efeito.
+*/
