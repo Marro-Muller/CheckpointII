@@ -1,0 +1,16 @@
+.caixaEsquerda {
+    position: absolute;
+    left: 100px;
+
+}
+
+.caixaCentral {
+    position:fixed;
+    right: 100px;
+    bottom: 50px;
+}
+
+.caixaDireita {
+    position:absolute;
+    bottom: 50px;
+}
