@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }  
+
+ body{
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Ftheunitedorganizationtoonsheroes%2Fimages%2F2%2F28%2FAlfea.jpg%2Frevision%2Flatest%3Fcb%3D20130511143607&f=1&nofb=1') no-repeat center;
+    background-size: cover;
+    background-color: #e5e5e5;
+    font-family: 'Crimson Text', serif;
+    }
+
+
+    #logo{
+        height:150px;
+        width: 180px;
+    }
+
+    h1{
+        font-family: 'Lobster', cursive;
+        font-size: 60px;
+        color: #1161DE;
+        text-align: center;
+        background-color: #e5e5e5c2;
+        padding: 15px 0;
+        margin-bottom: 15px;
+    }
+    
+    p{
+        background-color: #e5e5e5c2;
+        padding: 0 15px;
+        font-family: 'Crimson Text', serif;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    
+    iframe{
+        margin: 20px 20px 20px 350px;
+        width:640px;
+        height:360px;
+    
+    }
+    
+    h2{
+        font-family: 'Lobster', cursive;
+        font-size: 50px;
+        color: #1161DE;
+        text-align: center;
+        background-color: #e5e5e5c2;
+        padding-top: 20px;
+    }
+    
+    ul{
+        text-align: center;
+        background-color: #e5e5e5c2;
+        margin-bottom: 15px;
+        padding: 30px;
+    }
+
+    li {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    footer{
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .social{
+        height: 100px;
+        width: 100px;
+    }

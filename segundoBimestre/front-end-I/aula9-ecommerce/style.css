@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GERAL */
+
+body {
+    font-family: 'Rubik';
+}
+
+.title-1 {
+    font-size: 48px;
+    font-family: 'Press Start 2P';
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title-2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.botao {
+    background-color: tomato;
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* MENU */
+
+header {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.menu {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.menu ul li a {
+    padding: 10px;
+    color: tomato;
+    text-transform: uppercase;
+}
+
+
+/* INTRO */
+
+.intro {
+    background: url("https://st3.depositphotos.com/4189501/32509/v/600/depositphotos_325097206-stock-illustration-old-retro-video-game-background.jpg") no-repeat center center/cover);
+    text-align: center;
+    padding: 150px 0;
+}
+
+
+.intro .title-1, .intro .title-2 {
+    margin-bottom: 20px;
+}
+
+/* SOBRE */
+
+.sobre-nos{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    padding: 40px 0;
+}
+
+.sobre-nos p{
+    width: 50%;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.sobre-nos blockquote{
+    width: 50%;
+    padding: 20px;
+    font-family: serif;
+    font-size: 24px;
+    background: #efefef;
+    text-align: center;
+}
+
+/* PRODUTOS */
+
+.produtos {
+    padding: 40px 0;
+}
+
+.card {
+    width: 270px;
+    display: inline-block;
+    border: #efefef 1px solid;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.card .preco {
+    display: block;
+    
+}
