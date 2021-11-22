@@ -27,6 +27,7 @@ a {
     width: 100%;
     height: 400px;
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.rogerebert.com%2Fuploads%2Freview%2Fprimary_image%2Freviews%2Fgreat-movie-my-neighbor-totoro-1993%2Fhero_EB20011223REVIEWS08112230301AR.jpg&f=1&nofb=1");
+    background-size: cover;
 }
 
 .review-score {
