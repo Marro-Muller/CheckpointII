@@ -13,14 +13,25 @@
     background-size: cover;
     background-color: #e5e5e5;
     font-family: 'Crimson Text', serif;
+    
+    
     }
-
-
+.video{
+    width: 1200px;
+    height: 800px;
+    margin-top: 40px;
+    text-decoration: none;
+       
+}
     #logo{
         height:150px;
         width: 180px;
+        background-color: white;
     }
 
+    #logo:hover{
+        color: violet;
+    }
     h1{
         font-family: 'Lobster', cursive;
         font-size: 60px;
@@ -66,7 +77,12 @@
         margin-bottom: 10px;
         font-size: 20px;
         list-style: none;
+        
+    }
 
+    li:hover {
+    color:violet
+        
         
     }
     
@@ -75,7 +91,8 @@
         padding: 10px 0;
     }
 
-    .social{
+         
+    .social{ 
         height: 100px;
         width: 100px;
     }
