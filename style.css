@@ -86,13 +86,51 @@
         
     }
     
-    footer{
+    .rodape {
         text-align: center;
         padding: 10px 0;
     }
-
-         
+       
     .social{ 
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
+        opacity:.8;
+        padding: 10px;
+
     }
+    .social:hover{ 
+      opacity: 1;
+      padding: 20px;
+    }
+
+
+    .grade{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 24px;
+    }
+
+
+    card {
+        width: 400px;
+        transition: .5s ease-in-out;
+        }
+        
+
+        .card:hover {
+            transform: scale(1.05);
+            }
+            
+        
+        .card img {
+            width: 400px;
+
+                  
+        }
+        
+        .card h1 {
+            font-size: 18px;
+        }
