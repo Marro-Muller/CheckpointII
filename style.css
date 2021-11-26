@@ -8,74 +8,89 @@
     padding: 0;
     }  
 
- body{
+body{
     background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Ftheunitedorganizationtoonsheroes%2Fimages%2F2%2F28%2FAlfea.jpg%2Frevision%2Flatest%3Fcb%3D20130511143607&f=1&nofb=1') no-repeat center;
     background-size: cover;
     background-color: #e5e5e5;
     font-family: 'Crimson Text', serif;
     }
 
+.header {
+    display: flex;
+    list-style: none;
+    gap: 200px;
+    background-color: #838bdadc;
+}
 
-    #logo{
-        height:150px;
-        width: 180px;
-    }
-
-    h1{
-        font-family: 'Lobster', cursive;
-        font-size: 60px;
-        color: #1161DE;
-        text-align: center;
-        background-color: #e5e5e5c2;
-        padding: 15px 0;
-        margin-bottom: 15px;
-    }
-    
-    p{
-        background-color: #e5e5e5c2;
-        padding: 0 15px;
-        font-family: 'Crimson Text', serif;
-        font-size: 30px;
-        line-height: 50px;
-    }
-    
-    iframe{
-        margin: 20px 20px 20px 350px;
-        width:640px;
-        height:360px;
-    
-    }
-    
-    h2{
-        font-family: 'Lobster', cursive;
-        font-size: 50px;
-        color: #1161DE;
-        text-align: center;
-        background-color: #e5e5e5c2;
-        padding-top: 20px;
-    }
-    
-    ul{
-        text-align: center;
-        background-color: #e5e5e5c2;
-        margin-bottom: 15px;
-        padding: 30px;
+#logo{
+    height:150px;
+    width: 180px;
     }
 
-    li {
-        margin-bottom: 10px;
-        font-size: 20px;
-        list-style: none;
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: #1161DE;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 15px;
 
-        
+    }
+
+#cadastro {
+    border-radius: 30%;
+    padding: 20px;
+    position: fixed;
+
+    
+}
+
+#cadastro:hover {
+
+}
+    
+p{
+    background-color: #e5e5e5c2;
+    padding: 0 15px;
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    line-height: 50px;
     }
     
-    footer{
-        text-align: center;
-        padding: 10px 0;
-    }
+iframe{
+    margin: 20px 20px 20px 350px;
+    width:640px;
+    height:360px;
+}
+    
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #1161DE;
+    text-align: center;
+    background-color: #e5e5e5c2;
+    padding-top: 20px;
+}
+    
+ul{
+    text-align: center;
+    background-color: #e5e5e5c2;
+    margin-bottom: 15px;
+    padding: 30px;
+}
 
-    .social{
-        height: 100px;
-        width: 100px;
-    }
+li {
+    margin-bottom: 10px;
+    font-size: 20px;
+    list-style: none;      
+}
+    
+footer{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social{
+    height: 100px;
+    width: 100px;
+}
