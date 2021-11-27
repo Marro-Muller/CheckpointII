@@ -12,9 +12,12 @@
 
 header {
   text-align: center;
-  color:#59429d;
+  /* color:#59429d; */
   font-size: 24px;
   background-color: rgb(10, 10, 128);
+  padding: 20px; 
+  color: antiquewhite;
+  font-family: 'Open Sans', sans-serif;
   
 }
 
@@ -35,9 +38,9 @@ fieldset {
 body {
   background-color: #F0F8FF;
   font-size: 1em;
-  color: #59429d;
-  margin-left: 2%;
-  margin-top: 2%;
+  /* color: #59429d; */
+  /* margin-left: 2%;
+  margin-top: 2%; */
   justify-content: center;
 }
 
@@ -48,10 +51,8 @@ body {
   width: 200px;
    /* flex-wrap: wrap; */
 }
-img{
- ;
 
-}
+
 input, select, textarea, button {
   border-radius:5px;
 }
@@ -101,6 +102,7 @@ section {
   color: #04AA6D;
   margin-top: 24px;
   margin-bottom: 15px;
+  display: flex;
 }
 
 /* Estilização do forms */
@@ -109,7 +111,21 @@ section {
   padding: 10px 30px;
   background-color: rgb(10, 10, 128);
   border-radius: 32px;
+  display: table;
 }
+
+.main-container {
+  display: flex;
+
+}
+
+.main-container img{
+  margin-left: 24px;
+  width: 600px;
+  
+}
+
+
 
 /* Configuração dos inputs */
 .form-container input[type=text] {
