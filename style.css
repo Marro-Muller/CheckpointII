@@ -11,45 +11,117 @@
 body{
     background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Ftheunitedorganizationtoonsheroes%2Fimages%2F2%2F28%2FAlfea.jpg%2Frevision%2Flatest%3Fcb%3D20130511143607&f=1&nofb=1') no-repeat center;
     background-size: cover;
-    background-color: #e5e5e5;
     font-family: 'Crimson Text', serif;
     }
 
-.header {
+
+
+.main-header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+    background-color: #838bdadc;    
+ 
+}
+
+.main-menu {
+ 
+    display: flex;
+    gap: 20px;
     list-style: none;
-    gap: 200px;
-    background-color: #838bdadc;
+} 
+    .main-header img {
+        height: fit-content;
+        height:100px;
+        width: 150px;
+        
+
+
+    }  
+
+    .main-menu a {
+        opacity: .6;    
+        color: black;
+        text-decoration: none;
+        transition: .2s ease-in-out;
+    }
+    
+    .main-menu a:hover {
+        opacity: 1;
+    
+    }
+    .main-header button  {
+        /* color: white; */
+        font-size: 24px;
+        border: 1px solid whitesmoke;
+        background-color: transparent;
+        padding: 12px 24px;
+        border-radius: 24px;
+        height: fit-content;
+    
+    }
+    .main-header button:hover {
+
+        padding: 20px 30px;
+        background-color: darkorchid;
+    
+    }
+
+    /* #cadastro {
+        border-radius: 30%;
+        position: fixed;
+        background-color:darkcyan;
+        color: cornsilk;
+    } */
+    
+        
+    main {
+        padding: 42px;
+    }
+    main h1 {
+        color: white;
+        font-size: 60px;
+    }
+
+    .videos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+.video{
+    width: 1000px;
+    height: 600px;
+    margin-top: 40px;
+    text-decoration: none;
 }
 
 #logo{
     height:150px;
     width: 180px;
+    background-color: white;
     
     }
 
-h1{
+    #logo:hover{
+        color: violet;
+    }
+
+main h1{
     font-family: 'Lobster', cursive;
     font-size: 60px;
     color: #1161DE;
     text-align: center;
+    background-color: #e5e5e5c2;
     padding: 20px 0;
     margin-bottom: 15px;
 
     }
 
-#cadastro {
-    border-radius: 30%;
-    padding: 30px;
-    position: fixed;
-    background-color:darkcyan;
-    color: cornsilk;
-}
 
-#cadastro:hover {
-    padding: 40px;
-    background-color: darkorchid;
-}
     
 p{
     background-color: #e5e5e5c2;
@@ -74,25 +146,64 @@ h2{
     padding-top: 20px;
 }
     
-ul{
-    text-align: center;
-    background-color: #e5e5e5c2;
-    margin-bottom: 15px;
-    padding: 30px;
-}
 
 li {
     margin-bottom: 10px;
     font-size: 20px;
     list-style: none;      
 }
-    
+   
+
+li:hover {
+    color:violet
+
+}
 footer{
     text-align: center;
     padding: 10px 0;
 }
 
 .social{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
+    opacity:.8;
+    padding: 10px;
 }
+
+
+.social:hover { 
+  opacity: 1;
+  padding: 20px;
+}
+
+
+.grade{
+
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+justify-content: center;
+margin-top: 24px;
+}
+
+
+card {
+    width: 400px;
+    transition: .5s ease-in-out;
+    }
+    
+
+    .card:hover {
+        transform: scale(1.05);
+        }
+        
+    
+    .card img {
+        width: 400px;
+
+              
+    }
+    
+    .card h1 {
+        font-size: 18px;
+    }

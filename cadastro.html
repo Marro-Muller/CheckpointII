@@ -4,53 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Cadastro</title>
     <link rel="stylesheet" type="text/css" href="cadastro.css">
 </head>
+  <header>
+    <h1>Cadastro de Interesse</h1>
+  </header>
+
+
+ 
 <body>
 
-        <form class="form-container">
-          <h1>Cadastro de Interesse</h1>
-          <h2>Pré inscrição na Alfea College of Faries</h2>
-          <fieldset>
-            <legend>Dados do Responsável</legend>
-            <h3>Dados do Responsável</h3>
-            <label for="nameParent"><b>Nome</b></label>
-            <input type="text" placeholder="Nome do Responsável" name="nameParent" required>
 
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Email" name="email" required>
 
-            <label for="celParent"><b>Celular</b></label>
-            <input type="tel" placeholder="DDD + Celular" name="celParent" required>
+  <section class="university">
+    <img src="images/ColegioWins.png" alt="fgdg">
 
-            <p><label for="motivation"><b>O que mais lhe motiva a colocar seu filho na Alfea?</b></label></p>
-            <input type="checkbox" name="motivation" value="Renome na comunidade"><label>Renome na comunidade</label>
-            <p><input type="checkbox" name="motivation" value="Professores"><label>Professores</label></p>
-            <input type="checkbox" name="motivation" value="Aulas Extraclasse"><label>Aulas Extraclasse</label>
-            <p><input type="checkbox" name="motivation" value="Metodologia de Ensino"><label>Metodologia de Ensino</label></p>
-          </fieldset>
-          <p></p>
+  </section>
+  
+  <div id="check">
+    <p id="subtitle" >Pré inscrição na Alfea College of Faries</p>
 
-            <fieldset>
-              <legend>Dados do Estudante</legend>
-              <h3>Dados do Estudante</h3>
-              <label for="nameStudent"><b>Nome</b></label>
-              <input type="text" placeholder="Nome do Estudante" name="nameStudent" required>
+  </div>  
+  <form class="form-container">
+      <fieldset class="grupo">
+              <div class="campo" >
+                <legend class="legend">Dados do Responsável</legend>
+                <label for="nameParent"><b>Nome *</b></label>
+                <input  class="custom-name" type="text" placeholder="Nome do Responsável" name="nameParent" required>
+    
+              </div >
+              <div class="campo">
+                <label for="email"><strong>Email *</strong></label>
+                <input class="custom-input" type="email" placeholder="ex:nome@email.com.br" name="email" required>
+    
+              </div>
 
-              <label for="dateStudent"><b>Data de Nascimento</b></label>
+              <div class="campo">
+                <label for="celParent"><strong>Celular</strong></label>
+                <input type="tel" placeholder="DDD + Celular" name="celParent" required>
+    
+              </div>
+
+              <div id="check">                
+                <label for="">O que mais lhe motiva a colocar seu filho na Alfea?</label><br><br>
+                <input type="checkbox" name="motivation" value="Professores">
+                <label for="motivation">Professores</label>
+                <input type="checkbox" name="motivation2" value="Aulas Extraclasse">           
+                <label for="motivation2">Aulas Extraclasse</label>
+                <input type="checkbox" name="motivation3" value="Metodologia de Ensino">
+                <label for="motivation3">Metodologia de Ensino</label>
+                
+              </div>
+            
+           
+            </fieldset>
+         
+            <fieldset class="grupo">
+              <div class="campo">
+                <legend class="legend">Dados do Estudante</legend>
+                <label for="nameStudent"><strong>Nome *</strong>  </label>
+                <input class="custom-Student" type="text" placeholder="Nome do Estudante" name="nameStudent" required>
+              </div>
+              
+              <div>
+                <label for="dateStudent"> <strong>Data de Nascimento *</strong> </b></label>
               <input type="date" placeholder="Data de Nascimento" name="dateStudent" required>
 
-              <p></p><label for="brothers"><b>Possui irmãos ou irmãs?</b></label>
-              <select name="brothers">
-                <option value="brothers">Sim</option>
-                <option value="brothers">Não</option>
-              </select></p>
+              </div>
+              
 
-              <label for="grade"><b>Turma</b></label>
-              <input type="radio" name="grade" value="1º Ano"><label>1º Ano</label>
-              <input type="radio" name="grade" value="2º Ano"><label>2º Ano</label>
-              <input type="radio" name="grade" value="3º Ano"><label>3º Ano</label>
+              <div id="check">
+                <label for="brothers"><strong>Possui irmãos ou irmãs?</strong></label>
+                <select name="brothers">
+                  <option value="brothers">Sim</option>
+                  <option value="brothers">Não</option>
+                </select>
+              </div>
+            
+              <div class="grupo">
+                <label for="grade"> <strong>Turma *</strong></label>
+                <input type="radio" name="grade" value="1º Ano"><label>1º Ano</label>
+                <input type="radio" name="grade" value="2º Ano"><label>2º Ano</label>
+                <input type="radio" name="grade" value="3º Ano"><label>3º Ano</label>
+              </div>
+              
+
+              <div class="campo">
+                <label for="information"> <strong>Informações Adicionais</strong> </label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="information"></textarea>
+                
+
+              </div>
+
             </fieldset>
           
           <button type="submit" class="btn">Enviar</button>

@@ -1,11 +1,114 @@
-* {box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+  text-align: center;
+  color:#59429d;
+  font-size: 24px;
+  background-color: rgb(10, 10, 128);
+  
+}
+
+
+#subtitle{
+  color: #380B61;
+  font-size: 24px;
+  background-color: white;
+  padding:24px;
+  font-family: sans-serif;
+
+}
+fieldset {
+  border: 0;
+}
+
+
+body {
+  background-color: #F0F8FF;
+  font-size: 1em;
+  color: #59429d;
+  margin-left: 2%;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+ body .university{
+  display: flex;
+  /* justify-content: left; */
+  height: 200px;
+  width: 200px;
+   /* flex-wrap: wrap; */
+}
+img{
+ ;
+
+}
+input, select, textarea, button {
+  border-radius:5px;
+}
+.campo {
+margin-bottom: 1em;
+}
+
+.campo label{
+margin-bottom: 0.2em;
+color: #59429d;
+display: block;
+}
+
+fieldset.grupo .campo {
+  /* float: right; */
+  margin-right: 1em;
+
+}
+.campo input[type="text"] .campo input[type="email"] .campo select, .campo textarea{
+  padding: .2em;
+  border: 1px solid #59429d;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.2);
+  display: block;
+}
+.campo selection option{
+
+padding-right: 1em;
+}
+
+.campo input .campo select:focus, .campo textarea{
+  background: #e0e0f8; 
+}
+
+
+#check {
+  display: inline-block;
+}
+
+
+
+section {
+  background-color: white;
+  padding: 24px;
+}
+.form-container .legend{
+  font-size: 32px;
+  color: #04AA6D;
+  margin-top: 24px;
+  margin-bottom: 15px;
+}
 
 /* Estilização do forms */
 .form-container {
   max-width: 700px;
   padding: 10px 30px;
-  background-color: white;
+  background-color: rgb(10, 10, 128);
+  border-radius: 32px;
 }
 
 /* Configuração dos inputs */
@@ -23,6 +126,7 @@
   margin: 5px 0 22px 0;
   border: none;
   background: #f1f1f1;
+
 }
 
 /* Configuração dos inputs com focus */
@@ -63,3 +167,37 @@
 .form-container .btn:hover, .form-container .clearbtn:hover {
   opacity: 1;
 } 
+
+
+.custom-input{
+  width: 200px;
+  border: 0;
+  background-color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  /* nunca colocar transition em hover ou focus */
+  transition: .2s;
+}
+
+.custom-name {
+  /* width: 100px; */
+  border: 0;
+  background-color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  transition: .2s;
+}
+
+.custom-Student{
+  /* width: 200px; */
+  /* border: 0; */
+  background-color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  transition: .2s;
+}
+button {
+  /* margin-top: 24px; */
+  border-radius: 12px;
+
+}
