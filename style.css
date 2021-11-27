@@ -39,14 +39,15 @@ h1{
 
 #cadastro {
     border-radius: 30%;
-    padding: 20px;
+    padding: 30px;
     position: fixed;
-
-    
+    background-color:darkcyan;
+    color: cornsilk;
 }
 
 #cadastro:hover {
-
+    padding: 40px;
+    background-color: darkorchid;
 }
     
 p{

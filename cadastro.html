@@ -12,15 +12,49 @@
         <form class="form-container">
           <h1>Cadastro de Interesse</h1>
           <h2>Pré inscrição na Alfea College of Faries</h2>
-      
-          <label for="email"><b>Email do Responsável</b></label>
-          <input type="text" placeholder="Email" name="email" required>
-      
-          <label for="nameParent"><b>Nome do Responsável</b></label>
-          <input type="text" placeholder="Nome do Responsável" name="" required>
-      
+          <fieldset>
+            <legend>Dados do Responsável</legend>
+            <h3>Dados do Responsável</h3>
+            <label for="nameParent"><b>Nome</b></label>
+            <input type="text" placeholder="Nome do Responsável" name="nameParent" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Email" name="email" required>
+
+            <label for="celParent"><b>Celular</b></label>
+            <input type="tel" placeholder="DDD + Celular" name="celParent" required>
+
+            <p><label for="motivation"><b>O que mais lhe motiva a colocar seu filho na Alfea?</b></label></p>
+            <input type="checkbox" name="motivation" value="Renome na comunidade"><label>Renome na comunidade</label>
+            <p><input type="checkbox" name="motivation" value="Professores"><label>Professores</label></p>
+            <input type="checkbox" name="motivation" value="Aulas Extraclasse"><label>Aulas Extraclasse</label>
+            <p><input type="checkbox" name="motivation" value="Metodologia de Ensino"><label>Metodologia de Ensino</label></p>
+          </fieldset>
+          <p></p>
+
+            <fieldset>
+              <legend>Dados do Estudante</legend>
+              <h3>Dados do Estudante</h3>
+              <label for="nameStudent"><b>Nome</b></label>
+              <input type="text" placeholder="Nome do Estudante" name="nameStudent" required>
+
+              <label for="dateStudent"><b>Data de Nascimento</b></label>
+              <input type="date" placeholder="Data de Nascimento" name="dateStudent" required>
+
+              <p></p><label for="brothers"><b>Possui irmãos ou irmãs?</b></label>
+              <select name="brothers">
+                <option value="brothers">Sim</option>
+                <option value="brothers">Não</option>
+              </select></p>
+
+              <label for="grade"><b>Turma</b></label>
+              <input type="radio" name="grade" value="1º Ano"><label>1º Ano</label>
+              <input type="radio" name="grade" value="2º Ano"><label>2º Ano</label>
+              <input type="radio" name="grade" value="3º Ano"><label>3º Ano</label>
+            </fieldset>
+          
           <button type="submit" class="btn">Enviar</button>
-          <button type="clearbtn" class="clearbtn">Apagar respostas</button>
+          <button type="reset" class="clearbtn">Apagar respostas</button>
         </form>
       </div> 
     

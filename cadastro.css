@@ -3,13 +3,13 @@
 
 /* Estilização do forms */
 .form-container {
-  max-width: 300px;
-  padding: 10px;
+  max-width: 700px;
+  padding: 10px 30px;
   background-color: white;
 }
 
 /* Configuração dos inputs */
-.form-container input[type=text], .form-container input[type=password] {
+.form-container input[type=text] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -17,10 +17,22 @@
   background: #f1f1f1;
 }
 
-/* Configuração dos inputs */
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+.form-container input[type=tel], .form-container input[type=date] {
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Configuração dos inputs com focus */
+.form-container input[type=text]:focus, .form-container input[type=tel]:focus, .form-container input[type=date]:focus {
   background-color: #ddd;
   outline: none;
+}
+
+.form-container input[type=checkbox] {
+  color: black;
 }
 
 /*Botão de enviar*/
@@ -47,7 +59,7 @@
   opacity: 0.8;
 }
 
-/* Efeito hover */
+/* Efeito hover nos botões */
 .form-container .btn:hover, .form-container .clearbtn:hover {
   opacity: 1;
 } 
