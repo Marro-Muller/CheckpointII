@@ -131,10 +131,18 @@ p{
     line-height: 50px;
     }
     
-iframe{
-    margin: 20px 20px 20px 350px;
-    width:640px;
+.videoWinx{
+     margin: 0 300px 24px 300px;
+    /* width:640px;
     height:360px;
+    text-decoration: none; */ 
+    width: 1280px;
+    height: 720px;
+    margin-top: 40px;
+    text-decoration: none;
+    text-align: center;
+   
+
 }
     
 h2{
@@ -149,13 +157,13 @@ h2{
 
 li {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
     list-style: none;      
 }
    
 
 li:hover {
-    color:violet
+    color:violet;
 
 }
 footer{

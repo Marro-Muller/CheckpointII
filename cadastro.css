@@ -38,10 +38,10 @@ fieldset {
 body {
   background-color: #F0F8FF;
   font-size: 1em;
-  /* color: #59429d; */
-  /* margin-left: 2%;
-  margin-top: 2%; */
+  color: #59429d; */
   justify-content: center;
+  font-family: sans-serif;
+
 }
 
  body .university{
@@ -67,11 +67,15 @@ display: block;
 }
 
 fieldset.grupo .campo {
-  /* float: right; */
-  margin-right: 1em;
+  margin-right: 1em;  
 
+} 
+
+.grupo {
+  margin-top: 10px;
+  margin-bottom: 24px;
 }
-.campo input[type="text"] .campo input[type="email"] .campo select, .campo textarea{
+ .campo input[type="text"] .campo input[type="email"] .campo select, .campo textarea{
   padding: .2em;
   border: 1px solid #59429d;
   box-shadow: 2px 2px 2px rgb(0, 0, 0.2);
@@ -107,25 +111,29 @@ section {
 
 /* Estilização do forms */
 .form-container {
-  max-width: 700px;
+  max-width: 1000px;
   padding: 10px 30px;
   background-color: rgb(10, 10, 128);
   border-radius: 32px;
   display: table;
+  margin-left: 10px;
 }
 
 .main-container {
   display: flex;
+  width: 100%;
 
 }
 
 .main-container img{
-  margin-left: 24px;
-  width: 600px;
+  margin-left: 80px;
+  margin-top: 32px;
+  width: 700px;
+  height: 400px;
+  border-radius: 12px;
+  
   
 }
-
-
 
 /* Configuração dos inputs */
 .form-container input[type=text] {
@@ -146,7 +154,10 @@ section {
 }
 
 /* Configuração dos inputs com focus */
-.form-container input[type=text]:focus, .form-container input[type=tel]:focus, .form-container input[type=date]:focus {
+.form-container input[type=text]:focus, .form-container input[type=tel]:focus, .form-container input[type=date]:focus,
+
+.form-container input [type="checkbox"]:focus
+{
   background-color: #ddd;
   outline: none;
 }
@@ -196,7 +207,7 @@ section {
 }
 
 .custom-name {
-  /* width: 100px; */
+  width: 200px;
   border: 0;
   background-color: white;
   padding: 6px 12px;
@@ -205,8 +216,8 @@ section {
 }
 
 .custom-Student{
-  /* width: 200px; */
-  /* border: 0; */
+  width: 200px; 
+   border: 0;
   background-color: white;
   padding: 6px 12px;
   border-radius: 12px;
@@ -220,8 +231,8 @@ button {
 
 .zap img {
   position: fixed;
-  bottom: 10px;
-  right: 40px;
+  bottom: 5px;
+  right: 2px;
   width: 50px;
   height: 50px;
 }
