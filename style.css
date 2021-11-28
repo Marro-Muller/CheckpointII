@@ -50,7 +50,7 @@ body{
     
     }   
 
-    .main-header button  {           
+    .main-header  button  {           
         font-size: 24px;
         border: 2px solid whitesmoke;
         background-color: transparent;
@@ -58,21 +58,26 @@ body{
         border-radius: 36px;
         height: fit-content;
         transition: .2s ease-in-out;    
-        color: white;
         cursor: pointer;
-
+       
     }
     .main-header button:hover {
         transform: scale(0.4s);
         background-color:#793dc2;
         color: white;
-    
+          
     }
 
     .main-header button:focus {
-        /* outline: none; */
+        outline: none;
+
     } 
+    .main-header .teste {
       
+     text-decoration: none;
+     color: white;
+       
+    }
    
     main {
         padding: 42px;
