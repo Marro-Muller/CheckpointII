@@ -72,10 +72,11 @@ body{
         outline: none;
 
     } 
-    .main-header .teste {
+    .main-header .cadastro {
       
      text-decoration: none;
      color: white;
+     font-family: sans-serif;
        
     }
    
