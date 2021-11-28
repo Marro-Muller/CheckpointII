@@ -3,7 +3,7 @@
 ## Team
 - <a href="https://github.com/Marro-Muller" target="target" _blank>Maria Rosa Müller</a>;
 - <a href="https://github.com/julisevla3" target="target" _blank>Julinane Alves</a>;
-- <a href="https://github.com/Marro-Muller" target="target" _blank>Jonathas Magalhães</a>;
+- <a href="https://github.com/jonathasm" target="target" _blank>Jonathas Magalhães</a>;
 
 ## Objetivo
 
@@ -11,7 +11,6 @@ O objetivo do trabalho é desenvolver habilidades na criação de formulários, 
 
 ## Instruções
 
-Instruções
 Você provavelmente fez o checkpoint I, então imaginamos este trabalho como uma continuação dele. O trabalho será criar uma nova página com um formulário de cadastro. Seguem requisitos para a criação das páginas.
 
 1. O trabalho deve ser realizado em grupo de no máximo 3 pessoas.
@@ -30,8 +29,6 @@ Você provavelmente fez o checkpoint I, então imaginamos este trabalho como uma
 4. O formulário deve ter uma animação onde quando o usuário passa o cursor do mouse sobre o campo e o campo aumenta de tamanho. 
 
 5. Você tem total liberdade para animar e colorir o seu formulário, então use e abuse da sua criatividade!
-
-
 
 
 OBS: Algumas alterações do projeto foram feitas para otimizar a estética, mas de forma que não prejudique a comprovação do conteúdo adquirido.
