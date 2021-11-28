@@ -50,32 +50,29 @@ body{
     .main-menu a:hover {
         opacity: 1;
     
-    }
-    .main-header button  {
-        /* color: white; */
-        font-size: 24px;
-        border: 1px solid whitesmoke;
+    }   
+
+    .main-header button  {           
+        font-size: 28px;
+        border: 2px solid whitesmoke;
         background-color: transparent;
-        padding: 12px 24px;
-        border-radius: 24px;
+        padding: 6px 12px;
+        border-radius: 36px;
         height: fit-content;
-    
+        transition: .2s ease-in-out;    
+        text-decoration: none;
     }
     .main-header button:hover {
-
-        padding: 20px 30px;
-        background-color: darkorchid;
+        color-scheme: dark;
+        transform: scale(1.5);
+        translate: -60px;
+        background-color: #494e79;
     
     }
 
-    /* #cadastro {
-        border-radius: 30%;
-        position: fixed;
-        background-color:darkcyan;
-        color: cornsilk;
-    } */
-    
-        
+    .main-header button:focus {
+        outline: none;
+    }       
     main {
         padding: 42px;
     }

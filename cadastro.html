@@ -32,7 +32,7 @@
               <div class="campo" >
                 <legend class="legend">Dados do Responsável</legend>
                 <label for="nameParent"><b>Nome *</b></label>
-                <input  class="custom-name" type="text" placeholder="Nome do Responsável" name="nameParent" required>
+                <input class="custom-name" type="text" maxlength="100" placeholder="Nome do Responsável" name="nameParent" required>
     
               </div >
               <div class="campo">
@@ -43,8 +43,8 @@
 
               <div class="campo">
                 <label for="celParent"><strong>Celular</strong></label>
-                <input type="text" placeholder="DDD + Celular" name="celParent" required>
-    
+                <input class="phone" type="text" onkeyup="this.value=this.value.replace(/[^\d]/,'')"
+                  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="DDD + Celular" name="celParent" required>
               </div>
 
               <div id="check">                
@@ -91,6 +91,11 @@
                 <input type="radio" name="grade" value="1º Ano"><label>1º Ano</label>
                 <input type="radio" name="grade" value="2º Ano"><label>2º Ano</label>
                 <input type="radio" name="grade" value="3º Ano"><label>3º Ano</label>
+              </div>
+              <div class="grupo">
+                <label for="grade"> <strong>Maior de Idade?</strong></label>
+                <input type="radio" name="grade" value="Maior"><label>Maior</label>
+                <input type="radio" name="grade" value="Menor"><label>Menor</label>
               </div>
               
 

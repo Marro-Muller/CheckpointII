@@ -12,7 +12,7 @@
 
 header {
   text-align: center;
-  /* color:#59429d; */
+  color:#59429d; 
   font-size: 24px;
   background-color: rgb(10, 10, 128);
   padding: 20px; 
@@ -38,7 +38,7 @@ fieldset {
 body {
   background-color: #F0F8FF;
   font-size: 1em;
-  color: #59429d; */
+  color: #59429d; 
   justify-content: center;
   font-family: sans-serif;
 
@@ -55,7 +55,14 @@ body {
 
 input, select, textarea, button {
   border-radius:5px;
+  transition: all 1s; 
 }
+input:hover, select:hover, textarea:hover, button:hover {
+  border: 1px solid #519d42;
+  box-shadow: 0 0 80px #9d4242;
+  transform: scale(1.05);
+}
+
 .campo {
 margin-bottom: 1em;
 }
@@ -70,7 +77,9 @@ fieldset.grupo .campo {
   margin-right: 1em;  
 
 } 
-
+.phone{
+  
+}
 .grupo {
   margin-top: 10px;
   margin-bottom: 24px;
@@ -201,9 +210,8 @@ section {
   border: 0;
   background-color: white;
   padding: 6px 12px;
-  border-radius: 12px;
   /* nunca colocar transition em hover ou focus */
-  transition: .2s;
+
 }
 
 .custom-name {
@@ -211,8 +219,7 @@ section {
   border: 0;
   background-color: white;
   padding: 6px 12px;
-  border-radius: 12px;
-  transition: .2s;
+
 }
 
 .custom-Student{
@@ -220,8 +227,7 @@ section {
    border: 0;
   background-color: white;
   padding: 6px 12px;
-  border-radius: 12px;
-  transition: .2s;
+
 }
 button {
   /* margin-top: 24px; */
