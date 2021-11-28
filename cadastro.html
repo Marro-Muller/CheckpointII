@@ -14,8 +14,19 @@
 
 <body>
 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      console.log("Entrou aqui")
+      $('#phoneNumber').inputmask("(999) 999-9999");
+    });
+  </script>
+  
   <div id="check">
-    <p id="subtitle" >Pré inscrição na Alfea College of Faries</p>
+    <p id="subtitle" > <strong> Pré inscrição na Alfea College of Faries</strong></p>
 
   </div> 
   
@@ -43,8 +54,10 @@
 
               <div class="campo">
                 <label for="celParent"><strong>Celular</strong></label>
-                <input class="phone" type="text" onkeyup="this.value=this.value.replace(/[^\d]/,'')"
-                  maxlength="11" placeholder="DDD + Celular" name="celParent" required>
+                <input class="phone" type="text" id="phoneNumber" 
+                  placeholder="DDD + Celular" name="phoneNumber" required>
+                <data-in></data-in>
+
               </div>
 
               <div id="check">                
