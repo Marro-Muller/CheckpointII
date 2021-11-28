@@ -179,13 +179,15 @@ footer{
     height: 80px;
     width: 80px;
     opacity:.8;
-    padding: 10px;
+    padding: 15px;
+    transition: 0.2s ease-in-out;
 }
 
 
 .social:hover { 
-  opacity: 1;
-  padding: 20px;
+  opacity: 2;
+  padding: 10px;
+
 }
 
 
