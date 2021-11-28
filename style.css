@@ -129,11 +129,12 @@ main h1{
 
     
 p{
-    background-color: #e5e5e5c2;
+    background-color: #e5e5e580;
     padding: 0 15px;
     font-family: 'Crimson Text', serif;
     font-size: 30px;
     line-height: 50px;
+    border-radius: 12px;
     }
     
 .videoWinx{
@@ -155,8 +156,10 @@ h2{
     font-size: 50px;
     color: #1161DE;
     text-align: center;
-    background-color: #e5e5e5c2;
+    background-color: #e5e5e581;
     padding-top: 20px;
+    border-radius: 12px;
+    font-family: sans-serif;
 }
     
 
