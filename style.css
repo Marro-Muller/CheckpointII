@@ -201,8 +201,7 @@ margin-top: 24px;
 }
 
 
-card {
-    width: 400px;
+.card {
     transition: .5s ease-in-out;
     }
     
