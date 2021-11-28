@@ -36,8 +36,6 @@ body{
         height:100px;
         width: 150px;
         
-
-
     }  
 
     .main-menu a {
@@ -53,26 +51,29 @@ body{
     }   
 
     .main-header button  {           
-        font-size: 28px;
+        font-size: 24px;
         border: 2px solid whitesmoke;
         background-color: transparent;
         padding: 6px 12px;
         border-radius: 36px;
         height: fit-content;
         transition: .2s ease-in-out;    
-        text-decoration: none;
+        color: white;
+        cursor: pointer;
+
     }
     .main-header button:hover {
-        color-scheme: dark;
-        transform: scale(1.5);
-        translate: -60px;
-        background-color: #494e79;
+        transform: scale(0.4s);
+        background-color:#793dc2;
+        color: white;
     
     }
 
     .main-header button:focus {
-        outline: none;
-    }       
+        /* outline: none; */
+    } 
+      
+   
     main {
         padding: 42px;
     }
